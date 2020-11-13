@@ -1,0 +1,2 @@
+C:\Users\dioun\source\repos\Student_Roster\Debug\Student_Roster.exe
+C:\Users\dioun\source\repos\Student_Roster\Debug\Student_Roster.pdb
