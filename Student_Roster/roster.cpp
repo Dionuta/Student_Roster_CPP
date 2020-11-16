@@ -159,7 +159,7 @@ bool Roster::remove(string studentID) {
 		}
 	}
 	if (!found) {
-		cout << "Student with ID with this  not found." << endl;
+		cout << "Student with ID not found." << endl;
 	}
 	return found;
 }
