@@ -67,7 +67,7 @@ void Roster::parse(string row) {
 	lhs = rhs + 1; // moves to the next comma
 	rhs = row.find(",", lhs);
 
-	DegreeProgram degreeProgram = DegreeProgram::NETWORK;
+	DegreeProgram degreeProgram = DegreeProgram::UNDECIDED;
 	string degreeStr = row.substr(lhs, rhs - lhs);
 	if (degreeStr == "NETWORK") {
 		degreeProgram = DegreeProgram::NETWORK;
